@@ -81,7 +81,7 @@ const MyApi = (props) => {
                                 .map((holiday) => (
                                     <tr key={holiday.index}>
                                         <td>{holiday.title}</td>
-                                        <td>{holiday.date}</td>
+                                        <td>{holiday.date.split("-")[2]+"/"+holiday.date.split("-")[1]+"/"+holiday.date.split("-")[0]}</td>
                                         <td>
                                             {holiday.inalienable
                                                 ? 'Irrenunciable'
