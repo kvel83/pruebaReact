@@ -69,6 +69,7 @@ const MyApi = (props) => {
                     <tbody>
                         {/* aqui tengo un condicional, si no he ingresado nada en el campo de busqueda me renderiza todos los datos en la tabla, si tiene datos me hace el filtro y me muestra los que coincidan solamente, el parametro de comparacion se lo paso por parametro desde App y se llama searchText y es una propiedad de props */}
                         {props.searchText === '' ? (
+                            // codigo en caso de que el texto de busqueda este vacio o este iniciando la pagina
                             dataApi.map((holiday) => (
                                 <tr key={holiday.index}>
                                     <td>{holiday.title}</td>
@@ -82,6 +83,7 @@ const MyApi = (props) => {
                                 </tr>
                             ))
                         ) : (
+                            // codigo en caso de que el texto de busqueda venga con datos
                             dataApi
                                 .filter((holiday) =>
                                     holiday.title
