@@ -86,8 +86,8 @@ const MyApi = (props) => {
                                             {holiday.inalienable
                                                 ? 'Irrenunciable'
                                                 : 'Voluntario'}
+                                        </td>{holiday.extra}<td>
                                         </td>
-                                        <td>{holiday.extra}</td>
                                     </tr>
                                 ))
                         )}
