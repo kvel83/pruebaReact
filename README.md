@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+﻿# Prueba de React
+**URL**: https://kvel83.github.io/pruebaReact/
+**Video Explicativo**:https://www.icloud.com/iclouddrive/07bUfsqBRO08VlNSoYRtdBdbA#Prueba_N1_Desafio_Latam
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Descripción</h2>
+<p>Proyecto realizado en React como prueba final del Modulo de React I en la carrera de Desarrollo FullStack Javascript en Desafío Latam. Aplicación que lista los feriados de este año mostrando los siguientes datos:
 
-## Available Scripts
+ - Nombre
+ - Fecha
+ - Tipo de feriado.
 
-In the project directory, you can run:
+<h2>Estado del proyecto</h2>
+<h4 align="center"> :white_check_mark:Proyecto Finalizado:white_check_mark:</h4>
+<h2>Funcionalidades</h2>
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ - Buscar Feriado: Se puede buscar cualquier feriado del año ingresando parte de su nombre, de su fecha, si es irrenunciable o no y de su tipo. Una vez limpiado el input vuelve a mostrar el listado del año completo
+ - Ordenamiento: Las columnas de la tabla tienen incorporado el ordenamiento ascendente y descendente el cual puede realizarse haciendo clic en el título de cada columna. Al recargar la pagina vuelve a mostrar los datos desordenados.
+				 
+<h2>Tecnologías utilizadas</h2>
+ 
+ - React V18.2.0
+ - React Bootstrap V1.6.1
