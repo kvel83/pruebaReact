@@ -1,5 +1,6 @@
 ﻿# Prueba de React
 **URL**: https://kvel83.github.io/pruebaReact/
+
 **Video Explicativo**:https://www.icloud.com/iclouddrive/07bUfsqBRO08VlNSoYRtdBdbA#Prueba_N1_Desafio_Latam
 
 <h2>Descripción</h2>
@@ -10,7 +11,7 @@
  - Tipo de feriado.
 
 <h2>Estado del proyecto</h2>
-<h4 align="center"> :white_check_mark:Proyecto Finalizado:white_check_mark:</h4>
+<h4 align="center"> :white_check_mark: Proyecto Finalizado :white_check_mark:</h4>
 <h2>Funcionalidades</h2>
 
  - Buscar Feriado: Se puede buscar cualquier feriado del año ingresando parte de su nombre, de su fecha, si es irrenunciable o no y de su tipo. Una vez limpiado el input vuelve a mostrar el listado del año completo
